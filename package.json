@@ -1,0 +1,14 @@
+{
+  "name": "neurome-doc",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./neurome-js/server/server.js",
+    "build": "set NODE_ENV=production&&node ./neurome-js/build/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,3 @@
+[submodule "neurome-js"]
+	path = neurome-js
+	url = git@github.com:kazerlelutin/neurome-js.git
