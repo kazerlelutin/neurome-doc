@@ -1,14 +1,14 @@
 export const routes = [
   {
-    "path": "article/:id",
-    "component": ".article\\[id].html"
+    "path": "/article/:id",
+    "component": "/dist/routes/-397786227.js"
   },
   {
-    "path": "index",
-    "component": ".index.html"
+    "path": "/",
+    "component": "/dist/routes/100346066.js"
   },
   {
-    "path": ":slug",
-    "component": ".[slug].html"
+    "path": "/:slug",
+    "component": "/dist/routes/-1580176489.js"
   }
 ];
