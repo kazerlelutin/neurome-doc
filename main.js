@@ -1,6 +1,6 @@
 import { NeuromeJS } from './neurome-js/core/neurome.js'
 
+export const neurome = new NeuromeJS()
 document.addEventListener('DOMContentLoaded', async () => {
-  const neurome = new NeuromeJS()
   await neurome.load()
 })

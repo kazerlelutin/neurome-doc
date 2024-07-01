@@ -1,9 +1,23 @@
-<div>
-    <h1>Page index Test</h1>
-    <p>Ici un index ?</p>
+<div n-c="home">
+
+    <h1>{{title}}</h1>
+    <p>{{description}}</p>
+
+
+    <ul>
+        {{#each items}}
+        <li>{{name}}: {{value}}</li>
+        {{/each}}
+    </ul>
+
+    {{#if showList}}
+    <p>SHOW</p>
+    {{/if}}
 
     <div>--------------</div>
     <div n-c="test">
         ICI un bouton
+
     </div>
+    <div n-v="test" data-truc="OK">placeholder</div>
 </div>

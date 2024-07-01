@@ -1,8 +1,8 @@
 export default {
-  async onClick() {
-    console.log('Test controller')
+  async onClick(_, el) {
+    console.log('Test controller', el)
   },
-  async onInit() {
-    console.log('Test controller init')
+  async onInit(_, el) {
+    console.log('Test controller init', el)
   },
 }
