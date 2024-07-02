@@ -1,4 +1,4 @@
-const page = `<div n-c="home">
+const page = `<div n-c="home" class="p-md" n-l-room1>
 
     <h1>{{title}}</h1>
     <p>{{description}}</p>
@@ -17,7 +17,6 @@ const page = `<div n-c="home">
     <div>--------------</div>
     <div n-c="test">
         ICI un bouton
-
     </div>
     <div n-v="test" data-truc="OK">placeholder</div>
 </div>`

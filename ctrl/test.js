@@ -1,8 +1,13 @@
+import { neurome } from '../main.js'
+
 export default {
-  async onClick(_, el) {
-    console.log('Test controller', el)
+  state: {
+    test: 'truc',
   },
-  async onInit(_, el) {
-    console.log('Test controller init', el)
+  async onClick() {
+    neurome.pulse('room1', {
+      type: 'test',
+      data: 'Hello from test controller',
+    })
   },
 }

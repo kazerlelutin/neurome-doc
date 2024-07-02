@@ -1,9 +1,10 @@
 import { neurome } from '../main.js'
 
 export default {
-  async onInit(_, el) {
-    console.log('Home controller init', el)
-
+  state: {
+    test: 'truc',
+  },
+  async onInit(el) {
     const data = {
       title: 'Home',
       showList: true,
@@ -15,6 +16,17 @@ export default {
       ],
     }
 
+    el.state = {
+      ...el.state,
+      ...data,
+    }
+    neurome.cabin(el, data)
+  },
+  async onPulse(el, { message }) {
+    const data = {
+      ...el.state,
+      title: message.data,
+    }
     neurome.cabin(el, data)
   },
 }
