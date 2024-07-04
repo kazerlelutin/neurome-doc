@@ -6,7 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node ./neurome-js/server/server.js",
-    "build": "set NODE_ENV=production&&node ./neurome-js/build/index.js"
+    "build": "set NODE_ENV=production&&node ./neurome-js/dist/index.js"
   },
   "keywords": [],
   "author": "",

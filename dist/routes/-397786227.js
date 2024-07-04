@@ -1,2 +1,2 @@
-const page = `<div>ID article</div>`
-export default page
+const p = `<div>ID article</div>`
+export default p

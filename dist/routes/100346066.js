@@ -1,15 +1,12 @@
-const page = `<div n-c="home" class="p-md" n-l-room1>
+const p = `<div n-c="home" class="p-md" n-l-room1>
 
     <h1>{{title}}</h1>
     <p>{{description}}</p>
-
-
     <ul>
         {{#each items}}
         <li>{{name}}: {{value}}</li>
         {{/each}}
     </ul>
-
     {{#if showList}}
     <p>SHOW</p>
     {{/if}}
@@ -20,4 +17,4 @@ const page = `<div n-c="home" class="p-md" n-l-room1>
     </div>
     <div n-v="test" data-truc="OK">placeholder</div>
 </div>`
-export default page
+export default p

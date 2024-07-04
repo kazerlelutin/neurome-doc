@@ -1,2 +1,2 @@
-const page = `<div>ici le slug</div>`
-export default page
+const p = `<div>ici le slug</div>`
+export default p

@@ -6,7 +6,7 @@ export default {
   },
   async onInit(el) {
     const data = {
-      title: 'Home',
+      title: 'title',
       showList: true,
       descript: 'This is a description',
       items: [

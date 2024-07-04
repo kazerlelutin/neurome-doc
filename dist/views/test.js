@@ -1,4 +1,4 @@
-const view = `<div style="color: red">
+const v = `<div style="color: red">
     Ici mon test de template
     <div>
         <button n-c="test">ICI un bouton</button>
@@ -9,4 +9,4 @@ const view = `<div style="color: red">
     </div>
 
 </div>`
-export default view
+export default v
