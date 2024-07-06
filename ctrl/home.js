@@ -5,6 +5,11 @@ export default {
     test: 'truc',
   },
   async onInit(el) {
+    console.log(
+      'onInit',
+
+      await neurome.models.recipes.getAll()
+    )
     const data = {
       title: 'title',
       showList: true,
