@@ -5,13 +5,11 @@ export default {
     test: 'truc',
   },
   async onInit(el) {
-    console.log(
-      'onInit',
-
-      await neurome.models.recipes.getAll()
-    )
+    const code = await neurome.generateOffer()
+    console.log('Generated short code:', code)
     const data = {
-      title: 'title',
+      title: 'Bonjour le monde !',
+      code,
       showList: true,
       descript: 'This is a description',
       items: [

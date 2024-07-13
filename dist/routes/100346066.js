@@ -11,6 +11,11 @@ const p = `<div n-c="home" class="p-md" n-l-room1>
     <p>SHOW</p>
     {{/if}}
 
+    <div class="flex flex-col gap-1">
+        <div class="uppercase bold">{{code}}</div>
+
+    </div>
+
     <div>--------------</div>
     <div n-c="test">
         ICI un bouton
